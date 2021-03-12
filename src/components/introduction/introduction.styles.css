@@ -1,0 +1,21 @@
+.introduction-container {    
+    margin: 0 0;
+    align-self: flex-start;
+}
+
+h1 {
+    width: 300px;
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+    margin-bottom: 5px;
+}
+
+p {
+    margin-top: 0;
+    width: 400px;
+    font-size: 12px;
+    line-height: 1.6;
+    font-weight: 500;
+    color: hsl(303, 10%, 53%)
+}
+

@@ -1,0 +1,21 @@
+.rate-preview-container {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.rate-item {
+    width: 75%;
+    align-items: center;
+}
+.rate-item:nth-child(1) {
+    align-self: flex-start;
+}
+
+.rate-item:nth-child(2) {
+    align-self: center;
+}
+
+.rate-item:nth-child(3) {
+    align-self: flex-end;
+}

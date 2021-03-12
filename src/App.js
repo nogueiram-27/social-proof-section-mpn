@@ -1,24 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
+
+import Introduction from './components/introduction/introduction.component'
+import RatePreview from './components/rate-preview/rate-preview.component'
+import FeedbackPreview from './components/feedback-preview/feedbak-preview.component'
+
+
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <Introduction />
+    <RatePreview />
+    <FeedbackPreview />
     </div>
   );
 }

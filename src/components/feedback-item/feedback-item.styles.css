@@ -1,0 +1,39 @@
+.feedback-item-container {
+    padding: 25px;
+    background-color:hsl(300, 43%, 22%);
+    border-radius: 6px;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.user-info-container{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+img{
+    width:40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+span{
+    margin-left: 25px;
+    vertical-align: middle;
+}
+
+.name {
+    color: white;
+    margin: 0;
+}
+
+.verified-buyer {
+    color: hsl(333, 80%, 67%);
+    font-weight: lighter;
+    padding: 0;
+}
+
+.feedback {  
+    display: contents; 
+    color: white;
+}

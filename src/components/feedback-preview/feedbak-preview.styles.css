@@ -1,0 +1,25 @@
+.feedback-preview-container {
+    width: 90%;
+    height: 240px;
+    margin-top: 50px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.feedback-item {
+    display: flex;
+    width: 27%;
+    height: max-content;
+}
+
+.feedback-item:nth-child(1){
+    align-self: flex-start;
+}
+
+.feedback-item:nth-child(2){
+    align-self: center;
+}
+
+.feedback-item:nth-child(3){
+    align-self: flex-end;
+}
