@@ -13,6 +13,23 @@ function App() {
       <Introduction />
       <RatePreview />
       <FeedbackPreview />
+      <footer>
+        Challenge by 
+        <a 
+          href='https://www.frontendmentor.io/solutions' 
+          rel='noreferrer' 
+          target='_blank'
+        >
+         {" "}Frontend Mentor
+        </a>. Coded by 
+        <a           
+          href='https://github.com/nogueiram-27' 
+          rel='noreferrer' 
+          target='_blank'
+        >
+        {" "}Maria Nogueira
+        </a>.
+      </footer>
     </div>
   );
 }
