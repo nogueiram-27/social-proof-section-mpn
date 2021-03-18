@@ -1,12 +1,11 @@
 .rate-preview-container {
-    padding: 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+	width: 40vw;
+	display: flex;
+	flex-direction: column;
+	padding: 0 20px;
 }
 .rate-item {
-    width: 75%;
-    align-items: center;
+
 }
 .rate-item:nth-child(1) {
     align-self: flex-start;

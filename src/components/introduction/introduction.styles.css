@@ -1,19 +1,17 @@
-.introduction-container {    
-    margin: 0 0;
-    align-self: flex-start;
+.introduction-container {
+	width: 32vw;
 }
 
-h1 {
-    width: 300px;
+.introduction-container h1 {
+    width: 60%;
     font-weight: 700;
     color: hsl(300, 43%, 22%);
     margin-bottom: 5px;
 }
 
-p {
+.introduction-container p {
     margin-top: 0;
-    width: 400px;
-    font-size: 12px;
+    font-size: 15px;
     line-height: 1.6;
     font-weight: 500;
     color: hsl(303, 10%, 53%)

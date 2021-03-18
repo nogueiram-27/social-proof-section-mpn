@@ -1,9 +1,9 @@
 .feedback-item-container {
-    padding: 25px;
     background-color:hsl(300, 43%, 22%);
     border-radius: 6px;
-    width: 100%;
-    margin-top: 15px;
+	width: 20vw;
+	height: 50%;
+	padding: 40px 35px;
 }
 
 .user-info-container{
@@ -11,29 +11,29 @@
     margin-bottom: 15px;
 }
 
-img{
+.user-info-container img{
     width:40px;
     height: 40px;
     border-radius: 50%;
 }
 
-span{
-    margin-left: 25px;
-    vertical-align: middle;
+span p{
+	margin: 0;
+	padding: 0;
 }
 
 .name {
     color: white;
-    margin: 0;
 }
 
 .verified-buyer {
     color: hsl(333, 80%, 67%);
     font-weight: lighter;
-    padding: 0;
 }
 
 .feedback {  
-    display: contents; 
-    color: white;
+	color: white;
+	font-size: 14px;
+	line-height: 1.6;
+	margin-top: 25px;
 }

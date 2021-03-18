@@ -1,15 +1,13 @@
 .feedback-preview-container {
-    width: 90%;
-    height: 240px;
-    margin-top: 50px;
-    display:flex;
-    justify-content: space-between;
+	margin-top: 20px;
+	width: 100%;
+	height: 40vh;
+	display: flex;
+	justify-content: space-between;
 }
 
 .feedback-item {
-    display: flex;
-    width: 27%;
-    height: max-content;
+
 }
 
 .feedback-item:nth-child(1){

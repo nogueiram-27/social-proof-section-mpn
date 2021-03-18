@@ -10,9 +10,9 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-    <Introduction />
-    <RatePreview />
-    <FeedbackPreview />
+      <Introduction />
+      <RatePreview />
+      <FeedbackPreview />
     </div>
   );
 }

@@ -1,10 +1,13 @@
+html {
+	background-image: url(/src/assets/bg-pattern-top-desktop.svg), url(/src/assets/bg-pattern-bottom-desktop.svg);
+  	background-position: top left, bottom right;
+  	 background-attachment: fixed;
+  	background-repeat: no-repeat; 
+}
+
 body {
-  margin: 0 auto;
+	margin: 0 auto;
   font-family:'Spartan', sans-serif;
-  width: 1440px;
-  background-image: url(/src/assets/bg-pattern-top-desktop.svg), url(/src/assets/bg-pattern-bottom-desktop.svg);
-  background-position-x: 0%, 100%;
-  background-repeat: no-repeat, no-repeat;
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
