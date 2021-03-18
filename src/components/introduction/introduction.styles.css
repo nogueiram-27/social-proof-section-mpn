@@ -17,3 +17,15 @@
     color: hsl(303, 10%, 53%)
 }
 
+
+
+@media screen and (max-width: 1280px) {
+    .introduction-container {
+		width: unset;
+		text-align: center;
+   }
+
+   .introduction-container h1 {
+       width: unset;
+   }
+}

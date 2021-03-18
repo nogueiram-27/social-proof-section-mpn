@@ -5,6 +5,12 @@ html {
   	background-repeat: no-repeat; 
 }
 
+@media screen and (max-width: 1280px) {
+  html {
+   background-image: url(/src/assets/bg-pattern-top-mobile.svg), url(/src/assets/bg-pattern-bottom-mobile.svg);
+ }
+}
+
 body {
 	margin: 0 auto;
   font-family:'Spartan', sans-serif;

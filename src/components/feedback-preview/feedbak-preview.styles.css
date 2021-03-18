@@ -21,3 +21,20 @@
 .feedback-item:nth-child(3){
     align-self: flex-end;
 }
+
+@media screen and (max-width: 1280px) {
+	.feedback-preview-container {
+	   display: flex;
+	   flex-direction: column;
+	   justify-content: space-between;
+	   height: unset;
+   }
+
+   .feedback-item:nth-child(1){
+	   align-self: center;
+   }
+
+   .feedback-item:nth-child(3){
+	   align-self: center;
+   }
+}
